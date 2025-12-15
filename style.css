@@ -20,6 +20,8 @@ tr:nth-child(even) {
 
 .button {
   background-color: #626880;
+  border-radius: 12px;
+  border: none;
   text-decoration: none;
   color: #c6d0f5;
   cursor: pointer;
@@ -27,4 +29,9 @@ tr:nth-child(even) {
   padding: 15px 32px;
   text-align: center;
 }
+.button:active {
+  background-color: #414559;
+  transform: translateY(4px);
+}
+
 
