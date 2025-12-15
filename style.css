@@ -3,15 +3,20 @@ body {
   font-family: 'Manrope', sans-serif;
   background-color: #303446;
 }
+
 h1, p {
   color: #c6d0f5;
 }
+
 table, th, td {
-  border: 1px solid black;
+  border: 1px;
+  border-color: #414559;
 }
+
 tr:nth-child(even) {
   background-color: #a6d189;
 }
+
 .button {
   background-color: #626880;
   border-radius: 12px;
