@@ -16,6 +16,7 @@ table, th, td {
 
 tr:nth-child(even) {
   background-color: #a6d189;
+  color: #303446;
 }
 
 .button {
