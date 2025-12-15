@@ -11,6 +11,7 @@ h1, p {
 table, th, td {
   border: 1px;
   border-color: #737994;
+  color: #c6d0f5;
 }
 
 tr:nth-child(even) {
@@ -20,6 +21,7 @@ tr:nth-child(even) {
 .button {
   background-color: #626880;
   text-decoration: none;
+  color: #c6d0f5;
   cursor: pointer;
   font-size: 16px;
   padding: 15px 32px;
