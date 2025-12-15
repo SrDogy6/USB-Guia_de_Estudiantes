@@ -9,3 +9,13 @@ table, th, td {
   border: 1px solid black;}
 tr:nth-child(even) {
   background-color: #a6d189;}
+
+.button {
+  background-color: #626880;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px 32px;
+  text-align: center;
+}
+
