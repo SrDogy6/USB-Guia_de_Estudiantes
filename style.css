@@ -2,14 +2,14 @@
 body {
   font-family: 'Manrope', sans-serif;
   background-color: #303446;
-  padding: 0%;
+  font-weight: 700;
 }
 
 h1, p {
   color: #c6d0f5;
   text-align: center;
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 p.lowborder {
   border-bottom-style: solid;
@@ -24,19 +24,33 @@ img.Logo{
   max-width: auto;
 }
 img.banner{
-  max-width: 500px;
-  max-height: auto;
-  border-radius: 5px;
+  width: 500PX;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+}
+
+table{
+	background-color: #414559;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+	gap: 10px;
 }
 
 table, th, td {
-  border: 1px;
-  border-color: #737994;
   color: #c6d0f5;
 }
+th {
+  background-color: #626880;
+  border-radius: 5px;
+}
+
 tr:nth-child(even) {
   background-color: #626880;
-  color: #303446;
 }
 
 .button {
@@ -46,9 +60,9 @@ tr:nth-child(even) {
   text-decoration: none;
   color: #303446;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 900;
-  padding: 15px 32px;
+  font-size: 15px;
+  font-weight: 1000;
+  padding: 20px 20px;
   text-align: center;
 }
 .button:active {
@@ -56,29 +70,46 @@ tr:nth-child(even) {
   transform: translateY(4px);
 }
 
+.button:hover{
+  background-color: #a6d189;
+  transition-duration: 1000ms;
+}
+
+.button:span{
+  transition-duration: 1000ms;
+}
+
 div.usflbtn{
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  justify-content: center;
+  gap: 10px;
+  display: flex;
+}
+
+div.tablecn{
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  display: flex;
 }
 
 div.Header{
   position: sticky;
   top: 0;
   background-color: #414559;
-  padding: 0%;
+  padding: 5px;
+  border-radius: 12px
 }
 
 div.content{
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
- ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #303446;
+  background-color: #414559;
   display: flex;
 }
 
