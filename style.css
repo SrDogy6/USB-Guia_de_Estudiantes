@@ -24,10 +24,10 @@ img.Logo{
   max-width: auto;
 }
 img.banner{
-  float: none;
-  width: 100%;
-  height: 100%;
-  display: block;
+  float: right;
+  max-width: 500px;
+  max-height: auto;
+  border-radius: 5px;
 }
 
 table, th, td {
@@ -41,7 +41,7 @@ tr:nth-child(even) {
 }
 
 .button {
-  background-color: #a6d189;
+  background-color: #ca9ee6;
   border-radius: 12px;
   border: none;
   text-decoration: none;
@@ -69,27 +69,22 @@ div.content{
   padding-right: 10%;
 }
 
-ul {
-  list-style-type:none;
+ ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #414559;
-  position: sticky;
-}
-
-ul li {
-  float: left;
+  background-color: #303446;
+  display: flex;
 }
 
 ul li a {
-  color: #c6d0f5;
   display: block;
-  text-align: center;
+  color: #c6d0f5;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: #303446;
+  background-color: #ca9ee6;
+  color: #303446;
 }
