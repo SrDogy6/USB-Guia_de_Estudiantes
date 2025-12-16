@@ -56,6 +56,12 @@ tr:nth-child(even) {
   transform: translateY(4px);
 }
 
+div.usflbtn{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
 div.Header{
   position: sticky;
   top: 0;
